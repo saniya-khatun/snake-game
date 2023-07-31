@@ -32,6 +32,7 @@ class ScoreBoard(Turtle):
         self.score = 0
         with open("data.txt") as data:
             self.high_score= int(data.read())
+        print('a')
 
         self.penup()
         self.color("white")
